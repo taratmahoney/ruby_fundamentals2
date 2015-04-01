@@ -23,3 +23,11 @@ end
 students.delete(:cohort_4)
 
 print_students(students)
+
+##Bonus
+
+total_students = 0
+students.values.each do |value|
+	total_students += value
+end
+puts total_students
