@@ -27,3 +27,7 @@ puts grocery_list[1]
 grocery_list.sort.each do |item|
 	puts "* #{item}"
 end
+
+grocery_list.delete("apples")
+
+puts grocery_list
